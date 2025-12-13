@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Mouse+Memoirs&family=Ranchers&family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="play_card">
+        <p class="play_card_head">rock paper scissors</p>
+        <div class="play_area">
+            <div class="play">
+                <div class="playcard">
+                    <div class="scores">
+                        <div class="human score_card">
+                            <p class="score_card_name">you</p>
+                            <p class="score" id="human_score">0</p>
+                        </div>
+                        <div class="computer score_card">
+                            <p class="score_card_name">computer</p>
+                            <p class="score" id="computer_score">0</p>
+                        </div>
+                    </div>
+                    <div class="playing">
+                        <div class="human choice_card">
+                            <p class="choice_card_name">you</p>
+                            <div class="display_choice" id="display_user_choice">🤜</div>
+                            <p class="choosed_choice" id="the_user_choice">-</p>
+                        </div>
+                        <div class="computer choice_card" class="choice_card">
+                            <p class="choice_card_name">computer</p>
+                            <div class="display_choice" id="display_computer_choice">🤛</div>
+                            <p class="choosed_choice" id="the_computer_choice">-</p>
+                        </div>
+                    </div>
+                    <div class="choice">
+                        <p class="show_choice" id="show_result">make your move</p>
+                        <div class="choose_choice">
+                            <button class="choice_button" id="rock">✊</button>
+                            <button class="choice_button" id="paper">🤚</button>
+                            <button class="choice_button" id="scissors">✌️</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="info_card">
+                    <p class="round">select rounds</p>
+                    <select name="rounds" id="select_rounds" class="select_round" required>
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                    </select>
+                    <div id="round_winners" class="round_winners"></div>
+                </div>
+                <button type="reset" class="reset" id="reset">reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
