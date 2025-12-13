@@ -1,0 +1,71 @@
+@media screen and (max-width:576px){
+    h1{
+        padding: 10px 0;
+    }
+    .body_content{
+        flex-direction: column;
+    }
+    .player1, .player2{
+        width: 100%;
+        height: 15%;
+    }
+    .player_card{
+        width: 50%;
+        height: 100%;
+        font-size: 15px;
+        background: transparent;
+        border: 2px solid #ed6205;
+        padding: 2px;
+        border-radius: 10px;
+    }
+    .play_area{
+        width: 100%;
+    }
+    .play{
+        min-width: 230px;
+        max-width: 230px;
+    }
+    .play_button{
+        font-size: 40px;
+    }
+    .reset_button{
+        padding: 8px 40px;
+        font-size: medium;
+    }
+    form{
+        height: 120%;
+    }
+    .welcome, .greet{
+        font-size: 25px;
+    }
+    .win_notification p{
+        font-size: 100%;
+    }
+    .play_again{
+        padding: 4% 8%;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px) {
+    .player1, .player2{
+        align-items: center;
+        width: 20%;
+        height: 65%;
+    }
+    .player_card{
+        width: 90%;
+        height: 40%;
+    }
+    .play_area{
+        width: 60%;
+    }
+    .play{
+        min-width: 270px;
+        max-width: 270px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    .play{
+        min-width: 280px;
+    }
+}

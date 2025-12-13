@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display&family=Bangers&display&family=Barriecito&display&family=Moirai+One&display&family=Barriecito&display&family=Bangers&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>tic tac toe</h1>
+    <div class="body_content">
+        <div class="player1">
+            <div class="player_card">
+                <p class="playerO name" id="player1name">player name</p>
+                <p class="playerO win" id="player1win">win <span class="player1_win_count"
+                        id="player1_win_count">0</span></p>
+                <p class="player0 lose" id="player1lose">lose <span class="lose_count" id="player1lose_count">0</span>
+                </p>
+            </div>
+        </div>
+        <div class="play_area">
+            <div class="play">
+                <button class="play_button"></button>
+                <button class="play_button"></button>
+                <button class="play_button"></button>
+                <button class="play_button"></button>
+                <button class="play_button"></button>
+                <button class="play_button"></button>
+                <button class="play_button"></button>
+                <button class="play_button"></button>
+                <button class="play_button"></button>
+                <form id="submit_name">
+                    <p class="welcome">hi welcome to my game areena</p>
+                    <p class="greet">enjoy the tic tac toe</p>
+                    <input type="text" name="player1" id="player1" placeholder="player name" required>
+                    <input type="text" name="player2" id="player2" placeholder="player name" required>
+                    <button type="submit" class="submit_name">start game</button>
+                </form>
+                <div class="win_notification" id="win_notification">
+                    <p>congratulations</p>
+                    <p id="player_name">akhil</p>
+                    <p>won the match !</p>
+                    <button class="play_again" id="play_again">play again</button>
+                </div>
+                <div id="tie_notification">
+                    <p>
+                        ohh this match is tie❗
+                    </p>
+                    <button class="play_again" id="tieplay_again">play again</button>
+                </div>
+            </div>
+            <button type="reset" class="reset_button" id="reset">reset</button>
+        </div>
+        <div class="player2">
+            <div class="player_card">
+                <p class="playerO name" id="player2name">player name</p>
+                <p class="playerO win" id="player2win">win <span class="win_count" id="player2_win_count">0</span></p>
+                <p class="playerO lose" id="player2lose">lose <span class="lose_count" id="player2lose_count">0</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
