@@ -16,6 +16,7 @@ let cScore = 0
 let draw = 0
 let totalRoundsPlayed = 0
 let roundNumber = 1
+let isRoundActive = false
 let theRound
 let roundWinner
 let theComputerChoice
@@ -23,6 +24,10 @@ let theComputerChoice
 
 selectChoice.forEach((choice) => {
     choice.addEventListener("click", async () => {
+        showResult.textContent = "shaking...."
+        showResult.style.color = "white"
+        if (isRoundActive) return
+        isRoundActive = true;
         if (displayUserChoice.textContent !== "🤜" || displayComputerChoice.textContent !== "🤜") {
             displayUserChoice.textContent = "🤜"
             displayComputerChoice.textContent = "🤛"
@@ -43,6 +48,7 @@ selectChoice.forEach((choice) => {
         theRoundsLimit()
         totalRoundPlayed()
         showHistory()
+        isRoundActive = false
     })
 })
 
@@ -144,7 +150,8 @@ reset.addEventListener("click", () => {
 
     humanScore.textContent = 0
     computerScore.textContent = 0
-    showResult.textContent = ""
+    showResult.textContent = "make your move"
+    showResult.style.color = "rgb(194, 203, 218)"
     theWinnerDiv.innerHTML = ""
 
     displayUserChoice.textContent = "🤜"

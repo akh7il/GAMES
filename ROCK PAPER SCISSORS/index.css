@@ -240,6 +240,10 @@ body {
     padding: 10px 0;
 }
 
+.round_history_item {
+    width: 100%;
+}
+
 .round_name {
     text-transform: uppercase;
     width: 100%;
@@ -270,6 +274,11 @@ body {
     font-weight: 800;
     letter-spacing: 1px;
     cursor: pointer;
+    transition: transform .1s ease;
+}
+
+.reset:hover {
+    transform: scale(1.1);
 }
 
 .score_card_name {
