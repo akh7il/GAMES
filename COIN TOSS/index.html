@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fun and interactive Coin Toss game built with HTML, CSS, and JavaScript">
+    <meta name="author" content="Ak7hil">
+    <title>COIN TOSS</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display&family=Londrina+Shadow&display&family=Boogaloo&display&family=Mouse+Memoirs&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="play_card">
+        <div class="play_card_head">
+            <h1>COIN TOSS</h1>
+        </div>
+        <div class="coin_flipping_area">
+            <h1 class="the_winner" id="winner"></h1>
+            <div class="coin" id="coin">
+                <div class="heads side"></div>
+                <div class="tails side"></div>
+            </div>
+        </div>
+        <div class="show_winner" id="show_winner">
+            <p id="the_winner">choose your option</p>
+        </div>
+        <div class="choices">
+            <button class="head option">head</button>
+            <button class="tail option">tail</button>
+        </div>
+        <div class="score_card">
+            <div class="player card">
+                <p class="card name">you</p>
+                <p class="card number" id="player_score">0</p>
+            </div>
+            <div class="remaining card">
+                <p class="card name">remaining rounds</p>
+                <p class="card number" id="remaining_rounds"></p>
+            </div>
+            <div class="computer card">
+                <p class="card name">computer</p>
+                <p class="card number" id="computer_score">0</p>
+            </div>
+        </div>
+        <div class="reset">
+            <button type="reset" class="reset_button" id="reset_button">reset</button>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

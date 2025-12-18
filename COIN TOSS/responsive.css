@@ -1,0 +1,118 @@
+@media (max-width:576px) {
+    .play_card {
+        width: 90%;
+    }
+
+    .score_card {
+        flex-direction: column;
+        height: 25%;
+        gap: 2px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .coin_flipping_area {
+        height: 35%;
+    }
+
+    .option,
+    .reset_button {
+        width: 30%;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    .play_card {
+        width: 90%;
+    }
+
+    .coin {
+        height: 150px;
+        width: 150px;
+    }
+
+    .show_winner p {
+        font-size: 30px;
+    }
+
+    .score_card {
+        flex-direction: column;
+        height: 25%;
+        gap: 2px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .coin_flipping_area {
+        height: 35%;
+    }
+
+    .option,
+    .reset_button {
+        width: 30%;
+        font-size: 30px;
+    }
+
+    .name,
+    .number {
+        font-size: 28px;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    .play_card_head {
+        font-size: 28px;
+    }
+
+    .play_card {
+        width: 90%;
+    }
+
+    .coin {
+        height: 200px;
+        width: 200px;
+    }
+
+    .show_winner p {
+        font-size: 40px;
+    }
+
+    .score_card {
+        flex-direction: column;
+        height: 25%;
+        gap: 2px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .coin_flipping_area {
+        height: 35%;
+    }
+
+    .option,
+    .reset_button {
+        width: 30%;
+        font-size: 32px;
+    }
+
+    .name,
+    .number {
+        font-size: 30px;
+    }
+}
+
+@media (min-width:993px) {
+    .play_card_head {
+        font-size: 120%;
+    }
+
+    .show_winner p {
+        font-size: 150%;
+    }
+}
