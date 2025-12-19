@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD GAME</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+JP+N&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>match memory</h1>
+    <div class="display_card">
+        <div class="display_moves">
+            <p>moves</p>
+            <p id="move_count_is">0</p>
+        </div>
+        <div class="display_match">
+            <p>matches</p>
+            <p id="match_count_is">0</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="move">
+            <div class="move_card">
+                <p>moves</p>
+                <p id="move_count">0</p>
+            </div>
+        </div>
+        <div class="play-area">
+            <div class="card" data-value="♤"></div>
+            <div class="card" data-value="♤"></div>
+            <div class="card" data-value="♠"></div>
+            <div class="card" data-value="♠"></div>
+            <div class="card" data-value="♧"></div>
+            <div class="card" data-value="♧"></div>
+            <div class="card" data-value="♣"></div>
+            <div class="card" data-value="♣"></div>
+            <div class="card" data-value="♦"></div>
+            <div class="card" data-value="♦"></div>
+            <div class="card" data-value="♢"></div>
+            <div class="card" data-value="♢"></div>
+            <div class="card" data-value="♥"></div>
+            <div class="card" data-value="♥"></div>
+            <div class="card" data-value="♡"></div>
+            <div class="card" data-value="♡"></div>
+        </div>
+        <div class="match">
+            <div class="matchcard">
+                <p>matches</p>
+                <p id="match_count">0</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <button type="reset" class="reset" id="reset">reset</button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+@media (max-width:344px) {
+    .main {
+        width: 90%;
+        height: 46%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .play-area {
+        width: 100%;
+        height: 100%;
+    }
+
+    .move,
+    .match {
+        display: none;
+    }
+
+    .display_card {
+        width: 90%;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .display_moves,
+    .display_match {
+        width: 30%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 1.5rem;
+        font-family: "WDXL Lubrifont JP N", sans-serif;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media (min-width:345px) and (max-width:576px) {
+    .main {
+        width: 90%;
+        height: 55%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .play-area {
+        width: 100%;
+        height: 100%;
+    }
+
+    .move,
+    .match {
+        display: none;
+    }
+
+    .display_card {
+        width: 90%;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .display_moves,
+    .display_match {
+        width: 30%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 1.5rem;
+        font-family: "WDXL Lubrifont JP N", sans-serif;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .main {
+        width: 75%;
+        height: 65%;
+    }
+
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    .play-area {
+        width: 100%;
+        height: 100%;
+    }
+
+    .move,
+    .match {
+        display: none;
+    }
+
+    .display_card {
+        width: 90%;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .display_moves,
+    .display_match {
+        width: 30%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 2rem;
+        font-family: "WDXL Lubrifont JP N", sans-serif;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+    }
+
+    .reset {
+        font-size: 2rem;
+        padding: 10px 50px;
+    }
+
+    .card {
+        font-size: 6rem;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    .main {
+        width: 80%;
+        height: 65%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .play-area {
+        width: 100%;
+        height: 100%;
+    }
+
+    .move,
+    .match {
+        display: none;
+    }
+
+    .display_card {
+        width: 90%;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .display_moves,
+    .display_match {
+        width: 30%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 2.5rem;
+        font-family: "WDXL Lubrifont JP N", sans-serif;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+    }
+
+    .reset {
+        font-size: 2.5rem;
+        padding: 10px 50px;
+    }
+
+    .card {
+        font-size: 8rem;
+    }
+}
+
+@media (min-width:993px) {
+    .play-area {
+        min-width: 360px;
+    }
+}
