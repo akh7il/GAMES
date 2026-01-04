@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display&family=Boogaloo&display&family=Doto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="game-head">feed the monster</h1>
+    <div class="scores card">
+        <div class="current-score card">
+            <p>your score</p>
+            <p id="score">0</p>
+        </div>
+        <div class="message card">
+            <p id="message"></p>
+        </div>
+        <div class="best-score card">
+            <p>your best</p>
+            <p id="best">0</p>
+        </div>
+    </div>
+    <canvas class="gameCanvas" id="gameCanvas" width="600" height="340">
+
+    </canvas>
+    <div class="footer">
+        <button type="reset" class="restart" id="restart">restart</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

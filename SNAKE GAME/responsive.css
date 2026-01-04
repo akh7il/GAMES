@@ -1,0 +1,115 @@
+@media (max-width: 400px){
+    body{
+        min-height: 100vh;
+    }
+    .scores{
+        width: 95%;
+    }
+    .current-score, .best-score{
+        width: 30%;
+        font-size: 1.2rem;
+    }
+    .message{
+        font-size: 1.2rem;
+    }
+    .gameCanvas{
+        width: 360px;
+        height: 240px;
+    }
+    .restart{
+        padding: 10px 30px;
+        font-size: 1.1rem;
+    }
+}
+@media (min-width:401px) and (max-width:567px){
+    body{
+        min-height: 100vh;
+        justify-content: center;
+        gap: 5%;
+    }
+    .scores{
+        width: 95%;
+        height: 25%;
+        flex-direction: column;
+    }
+    .current-score, .best-score{
+        width: 80%;
+        height: 35%;
+        font-size: 1.2rem;
+    }
+    .message{
+        font-size: 1.2rem;
+    }
+    .gameCanvas{
+        width: 400px;
+        height: 240px;
+    }
+    .restart{
+        padding: 10px 30px;
+        font-size: 1.4rem;
+    }
+}
+@media (min-width:568px) and (max-width:768px){
+    body{
+        min-height: 100vh;
+    }
+    .game-head{
+        font-size: 3rem;
+    }
+    .scores{
+        width: 95%;
+    }
+    .current-score, .best-score{
+        width: 30%;
+        font-size: 1.8rem;
+    }
+    .message{
+        font-size: 2rem;
+    }
+    .gameCanvas{
+        min-width: 600px;
+        min-height: 340px;
+        width: 85%;
+        height: 37%;
+    }
+    .restart{
+        padding: 10px 30px;
+        font-size: 1.7rem;
+    }
+}
+@media (min-width:769px) and (max-width:992px){
+    body{
+        min-height: 100vh;
+    }
+    .game-head{
+        font-size: 4rem;
+    }
+    .scores{
+        width: 95%;
+    }
+    .current-score, .best-score{
+        width: 32%;
+        font-size: 1.9rem;
+    }
+    .message{
+        font-size: 2.2rem;
+    }
+    .gameCanvas{
+        min-width: 600px;
+        min-height: 340px;
+        width: 95%;
+        height: 37%;
+    }
+    .restart{
+        padding: 10px 40px;
+        font-size: 1.8rem;
+    }
+}
+@media (min-width:993px){
+    body{
+        min-height: 100vh;
+    }
+    .scores{
+        max-width: 600px;
+    }
+}
