@@ -1,0 +1,64 @@
+@media (max-width:576px) {
+    .card {
+        width: 95%;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    .card {
+        width: 80%;
+    }
+
+    .high_score,
+    .current_score {
+        font-size: 1.5rem;
+    }
+
+    .submit {
+        padding: 25px 0;
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    .card_head {
+        font-size: 4rem;
+    }
+
+    .card {
+        width: 80%;
+        height: 80%;
+    }
+
+    .high_score,
+    .current_score {
+        font-size: 1.8rem;
+    }
+
+    .submit {
+        padding: 25px 0;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+    .card_head {
+        font-size: 4.5rem;
+    }
+
+    .card {
+        min-width: 750px;
+        height: 80%;
+    }
+
+    .high_score,
+    .current_score {
+        font-size: 2rem;
+    }
+
+    .submit {
+        padding: 25px 0;
+        font-size: 2rem;
+    }
+
+}

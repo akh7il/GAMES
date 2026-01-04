@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #504B38;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 35%;
+    height: 90%;
+    background: #B9B28A;
+    border: 0;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card_head {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Frijole", system-ui;
+    font-size: 2.5rem;
+}
+
+.score {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.display_questions {
+    width: 80%;
+    min-height: 25%;
+    height: auto;
+    font-family: "Rum Raisin", sans-serif;
+    font-size: large;
+    color: #000;
+}
+
+.display_questions p {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.display_options {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.options {
+    width: 100%;
+    height: 20%;
+    background: #F8F3D9;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Rum Raisin", sans-serif;
+    font-size: medium;
+    text-transform: capitalize;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card_footer {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset {
+    width: 80%;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    background: #504B38;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Bangers", system-ui;
+    font-size: large;
+}
+
+.high_score,
+.current_score {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Denk One", sans-serif;
+    text-transform: capitalize;
+    color: #232017;
+}
