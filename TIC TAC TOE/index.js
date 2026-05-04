@@ -37,15 +37,25 @@ let tieNotification = document.getElementById("tie_notification")
 
 let tiePlayAgain = document.getElementById("tieplay_again")
 
+let isValid = true
+
 form.addEventListener("submit", (e) => {
     e.preventDefault()
-    const player1Name = document.getElementById("player1").value
-    const player2Name = document.getElementById("player2").value
+    const player1Name = document.getElementById("player1").value.trim()
+    const player2Name = document.getElementById("player2").value.trim()
+
+    if (!player1Name) {
+        isValid = false
+    }
+
+    if (!player2Name) {
+        isValid = false
+    }
+
+    if (!isValid) return
+
 
     let playerTurn = player1Name
-
-    console.log(player1Name)
-    console.log(player2Name)
 
     form.style.display = "none"
 
@@ -65,7 +75,6 @@ form.addEventListener("submit", (e) => {
     resetButton.style.display = "block"
 
     let buttons = document.querySelectorAll(".play_button")
-    console.log(buttons)
 
     player1name.style.color = "black"
 

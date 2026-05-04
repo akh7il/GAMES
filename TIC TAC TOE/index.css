@@ -17,7 +17,7 @@ h1 {
     font-family: "Rubik Dirt", system-ui;
     text-transform: uppercase;
     color: #fff;
-    font-size: 40px;
+    font-size: 5rem;
     text-align: center;
     padding: 40px 0;
 }
@@ -181,7 +181,7 @@ form {
 .welcome,
 .greet {
     font-family: "Bangers", system-ui;
-    font-size: 30px;
+    font-size: 2.5rem;
 }
 
 .greet {
@@ -191,24 +191,29 @@ form {
 form input {
     width: 90%;
     height: 13%;
+    min-height: 60px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 0;
     font-weight: 500;
-    font-size: medium;
+    font-size: 1.5rem;
+}
+
+form input:focus {
+    outline: none;
 }
 
 .submit_name {
     text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 15px 25px;
     font-family: "Bangers", system-ui;
     background: #000;
     border: 0;
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
-    font-size: medium;
+    font-size: 1.5rem;
     transition: transform .1s ease-in
 }
 
